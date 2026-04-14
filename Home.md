@@ -12,6 +12,6 @@
 | [Diana] | [Documentation] |
 | [Evgen] | [Testing] |
 
-**Date: **  Квітень 2025
-** Methodology: ** Kanban
-** Stack: **  ASP.NET Core MVC + Next.js + Relational DB
+**Date: ** | Квітень 2025 |
+** Methodology: ** Kanban |
+** Stack: ** | ASP.NET Core MVC + Next.js + Relational DB |
