@@ -1,1 +1,1 @@
-<img width="966" height="960" alt="image" src="https://github.com/user-attachments/assets/9c0a1135-ac24-4368-91b5-54633e551ae1" />
+<img width="3884" height="4326" alt="techsurvivor" src="https://github.com/user-attachments/assets/a878a165-7ccb-4862-a226-896ac619ba30" />
