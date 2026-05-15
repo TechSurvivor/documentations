@@ -42,7 +42,7 @@ body:
   - type: input
     id: uc
     attributes:
-      label: Пов'язаний Use Case
+      label: Повязаний Use Case
       placeholder: UC-03
       description: Наприклад: UC-03
     validations:
