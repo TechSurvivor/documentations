@@ -30,4 +30,4 @@
 
 ---
 
-← [Home](https://github.com/TechSurvivor/documentations/blob/main/Home.md))
+← [Home](https://github.com/TechSurvivor/documentations/blob/main/Home.md)
