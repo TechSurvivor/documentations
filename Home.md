@@ -19,6 +19,6 @@
 ## Contents
  
 - [Vision](https://github.com/TechSurvivor/documentations/blob/main/Vision.md)
-- [Use Cases](Use-Cases)
+- [Use Cases](https://github.com/TechSurvivor/documentations/blob/main/Use-cases.md)
 - [User Stories](User-Stories)
 - [Non-Functional Requirements](https://github.com/TechSurvivor/documentations/blob/main/Non-Functional-Requirements.md)
