@@ -18,7 +18,7 @@
  
 ## Contents
  
-- [Vision](Vision)
+- [(https://github.com/TechSurvivor/documentations/blob/main/Vision.md)](Vision)
 - [Use Cases](Use-Cases)
 - [User Stories](User-Stories)
 - [Non-Functional Requirements](Non-Functional-Requirements)
