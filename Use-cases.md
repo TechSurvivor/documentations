@@ -6,7 +6,8 @@
 >
 > Основні зв'язки: «Розміщення оголошення» `<<include>>` «Авторизація»; «Перегляд оголошення» `<<extend>>` «Пошук і фільтри».
  
-[вставте діаграму Use Case тут]
+<img width="1320" height="978" alt="image" src="https://github.com/user-attachments/assets/3a473808-3cee-4cc1-b74c-5c7406c74d6a" />
+
  
 ---
  
