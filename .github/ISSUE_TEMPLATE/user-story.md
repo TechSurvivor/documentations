@@ -11,16 +11,7 @@ assignees: dinlwee
     attributes:
       value: |
         ## User Story
-        Заповніть поля нижче. **Номер**, **Назва**, **Пріоритет**, **Use Case**, **User Story** та **Критерії прийняття** є обов'язковими.
-
-  - type: input
-    id: us-id
-    attributes:
-      label: Номер User Story
-      description: Наприклад: US-01
-      placeholder: US-01
-    validations:
-      required: true
+        Заповніть поля нижче.  **Назва**, **Пріоритет**,  **User Story** та **Критерії прийняття** є обов'язковими.
 
   - type: input
     id: title
@@ -39,15 +30,6 @@ assignees: dinlwee
         - "🔴 Високий"
         - "🟡 Середній"
         - "🟢 Низький"
-    validations:
-      required: true
-
-  - type: input
-    id: use-case
-    attributes:
-      label: Use Case
-      description: Наприклад: UC-01
-      placeholder: UC-01
     validations:
       required: true
 
@@ -72,12 +54,3 @@ assignees: dinlwee
         * Після успішної реєстрації користувачеві призначається роль
     validations:
       required: true
-
-  - type: textarea
-    id: notes
-    attributes:
-      label: Нотатки
-      description: Технічні деталі, обмеження, крайні випадки (необов'язково)
-      placeholder: напр. Редагувати оголошення може лише його власник
-    validations:
-      required: false
