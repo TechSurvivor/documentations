@@ -28,6 +28,4 @@
 | Адміністративна панель (керування оголошеннями) | ШІ-асистент для підбору товару |
 | Банерна реклама | — |
 
----
 
-← [Home](https://github.com/TechSurvivor/documentations/blob/main/Home.md)
