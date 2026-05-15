@@ -135,8 +135,11 @@ npm run dev
 ---
 
 **Команда** <br><br>
-
+**Backend Developers** <br>
+• Stanislav <br>
  **Frontend Developers** <br>
 • Maksym <br>
 • Artem <br>
-• Diana <br>
+• Diana and responsible for documentation<br>
+**Tester** <br>
+ • Evgen <br>
