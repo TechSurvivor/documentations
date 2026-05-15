@@ -1,97 +1,80 @@
----
 name: User Story
-about: User Story templete
-title: ''
-labels: user-story
-assignees: ''
-
----
-
-name: User Story
-description: Describe a feature from the user's perspective
+description: Створення нової User Story
 labels: ["user story"]
- 
+
 body:
   - type: markdown
     attributes:
       value: |
-        ## User Story
-        Fill in the fields below. **Role**, **Action**, **Value**, **Acceptance Criteria**, **Use Case**, and **Priority** are required.
- 
+        ## Нова User Story
+        Заповніть поля нижче. Після створення видачі **змініть заголовок** на формат:
+        `US-XX — Назва історії 🔴 Високий`
+
   - type: input
-    id: role
+    id: us-id
     attributes:
-      label: Role
-      description: Who is this story for?
-      placeholder: e.g. Administrator, Teacher, Student
+      label: Номер User Story
+      placeholder: US-05
+      description: Наприклад: US-05
     validations:
       required: true
- 
+
   - type: input
-    id: action
+    id: title
     attributes:
-      label: Action
-      description: What do they want to do?
-      placeholder: e.g. create a lesson by selecting a group, teacher, room, and time slot
+      label: Назва User Story
+      placeholder: Створення оголошення
+      description: Коротка назва
     validations:
       required: true
- 
-  - type: input
-    id: value
-    attributes:
-      label: Value
-      description: Why do they want to do it? What is the benefit?
-      placeholder: e.g. it appears in the schedule and is visible to all users
-    validations:
-      required: true
- 
-  - type: textarea
-    id: acceptance-criteria
-    attributes:
-      label: Acceptance Criteria
-      description: List at least 3 criteria. Each line is one criterion.
-      placeholder: |
-        - [ ] ...
-        - [ ] ...
-        - [ ] ...
-    validations:
-      required: true
- 
-  - type: input
-    id: use-case
-    attributes:
-      label: Use Case
-      description: Which Use Case does this story belong to?
-      placeholder: e.g. UC-02
-    validations:
-      required: true
- 
+
   - type: dropdown
     id: priority
     attributes:
-      label: Priority
-      description: Select the priority and then add the corresponding label (Priority:HIGH / Priority:MEDIUM / Priority:LOW) manually on the right side panel.
+      label: Пріоритет
       options:
-        - "High"
-        - "Medium"
-        - "Low"
+        - 🔴 Високий
+        - 🟡 Середній
+        - 🟢 Низький
     validations:
       required: true
- 
+
+  - type: input
+    id: uc
+    attributes:
+      label: Пов'язаний Use Case
+      placeholder: UC-03
+      description: Наприклад: UC-03
+    validations:
+      required: true
+
+  - type: textarea
+    id: story
+    attributes:
+      label: User Story
+      description: "Формат: Як [роль], я хочу [дія], щоб [цінність]"
+      placeholder: Як авторизований користувач, я хочу створити оголошення з назвою, описом і ціною, щоб інші користувачі могли знайти мій товар.
+      value: "Як "
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Критерії прийняття
+      description: Кожен критерій з нового рядка, починайте з *
+      placeholder: |
+        * Оголошення зберігається з прив'язкою до авторизованого користувача
+        * Поля title, price, categoryId є обов'язковими
+        * Після створення встановлюється статус Active
+    validations:
+      required: true
+
   - type: textarea
     id: notes
     attributes:
-      label: Notes
-      description: Any additional context, edge cases, or design decisions (optional)
-      placeholder: e.g. Consider mobile layout for this feature
-    validations:
-      required: false
- 
-  - type: textarea
-    id: mockups
-    attributes:
-      label: Screenshots / Mockups
-      description: Attach any wireframes or screenshots if available (optional)
-      placeholder: Drag and drop images here
+      label: Додаткові нотатки
+      description: Технічні деталі, обмеження, крайні випадки (необов'язково)
+      placeholder: Редагувати оголошення може лише власник
     validations:
       required: false
